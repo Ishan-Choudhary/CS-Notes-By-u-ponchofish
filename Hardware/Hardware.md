@@ -127,6 +127,7 @@ Advantages:
 - No need to buy new computer system
 - …so cheaper
 - Multiple OS's on same hardware
+  
 Disadvantages:
 - More code executed
 - ...so lower performance than with physical computer system
@@ -150,6 +151,8 @@ RISC - Reduced Instruction Set Computer
 - Emphasis on software
 - Uses more RAM
 - Only store and load for memory access
+
+
 CISC - Complex Instruction Set Computer
 - Many complex instructions - multiple cycles
 - Variable length instructions
