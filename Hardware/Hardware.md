@@ -177,13 +177,21 @@ There can be a data dependency issue where one instruction is not done with gene
 
 ### Parallelism
 S = single
+
 M = multiple
+
 I = instruction
+
 D = data
+
 SISD - One processor - basic
+
 SIMD - Each processor uses data in dedicated memory - graphics
+
 MISD - 
+
 MIMD - processors have own partition in shared memory - massively parallel computer 
+
 
 Massively parallel computer:
 - Many separate processors
