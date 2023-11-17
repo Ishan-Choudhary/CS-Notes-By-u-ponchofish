@@ -50,7 +50,7 @@ Notice how these people put the ^ before the type and after the variable identif
 Example (pointer to an INTEGER):
 
 ```
-DECLARE IntPointer : ^INTEGER
+TYPE intPointer = ^INTEGER
 DECLARE MyVar : INTEGER
 DECLARE MyVar2 : INTEGER
 MyVar <-- 57
