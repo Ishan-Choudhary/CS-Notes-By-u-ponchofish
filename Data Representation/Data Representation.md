@@ -10,6 +10,7 @@ A collection of related items that may have different data types (9608/33/M/J/18
 
 Example (9618/33/M/J/21):
 (SchoolDay and WeekEnd are enumerated types created in the previous question)
+
 `
 TYPE ClubMeet
     DECLARE FirstName : STRING
@@ -20,6 +21,7 @@ ENDTYPE
 `
 
 Example with enum and range inside the declaration
+
 `
 TYPE MyContactDetail
     DECLARE Name : STRING
