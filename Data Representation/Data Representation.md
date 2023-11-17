@@ -11,24 +11,24 @@ A collection of related items that may have different data types (9608/33/M/J/18
 Example (9618/33/M/J/21):
 (SchoolDay and WeekEnd are enumerated types created in the previous question)
 
-`
+```
 TYPE ClubMeet
     DECLARE FirstName : STRING
     DECLARE LastName : STRING
     DECLARE Schoolday : SchoolDay
     DECLARE Weekend : WeekEnd
 ENDTYPE
-`
+```
 
 Example with enum and range inside the declaration
 
-`
+```
 TYPE MyContactDetail
     DECLARE Name : STRING
     DECLARE Area : (uptown, downtown, midtown)
     DECLARE HouseNumber : 1..499
 ENDTYPE
-`
+```
 
 #### Class
 Data type that has properties and methods for an object (9608/33/M/J/18)
