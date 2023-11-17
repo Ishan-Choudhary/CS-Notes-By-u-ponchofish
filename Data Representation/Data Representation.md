@@ -48,7 +48,8 @@ A pointer is a variable that stores the address of a variable of a particular ty
 
 Notice how these people put the ^ before the type and after the variable identifier.
 Example (pointer to an INTEGER):
-`
+
+```
 DECLARE IntPointer : ^INTEGER
 DECLARE MyVar : INTEGER
 DECLARE MyVar2 : INTEGER
@@ -58,7 +59,7 @@ IntPointer <-- @MyVar
 // ^ after a pointer variable identifier dereferences the pointer variable
 MyVar2 <-- IntPointer^
 IntPointer^ <-- 100
-`
+```
 
 ## File Organisation
 ### Serial
