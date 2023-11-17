@@ -40,6 +40,7 @@ A **single** (9608/33/M/J/18) data type that is not composed of multiple other t
 #### Enum
 A data-type which provides a list of values that a variable of this type can take on.
 Example (9618/33/M/J/21):
+
 ```TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, Friday)```
 
 #### Pointer
